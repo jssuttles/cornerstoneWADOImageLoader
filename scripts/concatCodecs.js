@@ -5,7 +5,7 @@ const codecFiles = [
     './codecs/jpeg.js',
     './codecs/jpegLossless.js',
     './codecs/jpx.min.js',
-    require.resolve('OpenJPEG.js/dist/openJPEG-DynamicMemory-commonJS'),
+    './codecs/libopenjpeg.js',
     './codecs/pako.min.js'
 ];
 const outputFile = './dist/cornerstoneWADOImageLoaderCodecs.js';
